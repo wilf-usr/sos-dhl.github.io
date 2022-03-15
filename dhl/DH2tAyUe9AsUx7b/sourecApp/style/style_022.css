@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Start Page index - Bism Allah
+   ========================================================================== */
+.bg-loadingo9lawzan {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top:0;
+	z-index: 10;
+	background: #fff;
+	-moz-opacity: .6;
+	-khtml-opacity: .6;
+	-webkit-opacity: .6;
+	opacity: .6;
+	-ms-filter: alpha(opacity=80);
+	filter: alpha(opacity=80)
+}
+.lawzan:before {
+    content: "";
+    height: 50px;
+    width: 50px;
+    margin: -100px auto auto -15px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: RGB(212,5,17) #ccc #ccc;
+    border-radius: 100%;
+    animation: rotation .7s infinite linear;
+}	
+        @-webkit-keyframes rotation {
+            from {
+                -webkit-transform: rotate(0)
+            }
+            to {
+                -webkit-transform: rotate(359deg)
+            }
+        }
+        @-moz-keyframes rotation {
+            from {
+                -moz-transform: rotate(0)
+            }
+            to {
+                -moz-transform: rotate(359deg)
+            }
+        }
+        @-o-keyframes rotation {
+            from {
+                -o-transform: rotate(0)
+            }
+            to {
+                -o-transform: rotate(359deg)
+            }
+        }
+        @keyframes rotation {
+            from {
+                transform: rotate(0)
+            }
+            to {
+                transform: rotate(359deg)
+            }
+        }
+		
